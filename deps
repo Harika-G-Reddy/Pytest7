@@ -1,0 +1,30 @@
+selenium
+weebdriver manager
+pytest
+ pip install pytest-order
+
+pytest is automation framework
+
+should start with test
+eg:def test_launach()
+execuion order
+markings of testcaes
+assertions
+parmeterization
+support fixtures
+parllel execution
+test report geneartion
+
+commands:
+
+pytest filename
+
+pytest -v -s filename
+
+html report:
+pip install pytest-html-reporter
+
+pytest tests/ --html-report=./report/report.html
+
+parrlle execution
+pip install pytest-xdist
